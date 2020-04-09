@@ -17,6 +17,45 @@
     padding: 1.5em;
 }
 */
+
+html{
+	scroll-behavior: smooth;
+}
+body{ 
+	font-family: sans-serif;
+}
+
+
+
+
+
+/*Hipervinculo hacia el header*/
+.arriba button{
+    position: fixed;
+    margin-top: 250px;
+    margin-left: 94%;
+}
+
+.arriba button:hover{
+    color: rgba(63, 216, 243, 0.637);
+    
+}
+
+.arriba button a i{
+    position: absolute;
+    top: 50%;
+    right: 30px; 
+    font-size: 3em;
+    color: teal;
+    cursor: pointer;
+}
+.arriba button a i:hover{
+    color: rgba(66, 120, 201, 0.952);
+    font-size: 3.3em;
+    transition: 0.3s;
+}
+/*Hipervinculo hacia el header*/
+
 ul {
     list-style: none;
     padding: 0;

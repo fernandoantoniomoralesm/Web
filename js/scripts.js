@@ -71,6 +71,7 @@ function pop(num) {
     var popup5=document.getElementById('popup5');
     popup5.classList.toggle('active');
   }
+
   else{
       var blur=document.getElementById('blur');
       blur.classList.toggle('active');

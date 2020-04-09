@@ -202,9 +202,15 @@ header .textos-header{
 
 
 
+
+
 .portafolio{
     background: #f2f2f2;
     margin-top: 600px;
+
+    position: relative;
+    
+
 }
 
 .galeria-port{
